@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/play
+# catalog-date 2007-01-13 20:56:44 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-play
 Version:	20070113
 Release:	1
@@ -42,6 +48,7 @@ including options for line numbering.
 #- source
 %doc %{_texmfdistdir}/source/latex/play/play.dtx
 %doc %{_texmfdistdir}/source/latex/play/play.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ including options for line numbering.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
