@@ -49,3 +49,17 @@ including options for line numbering.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070113-2
++ Revision: 754980
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070113-1
++ Revision: 719275
+- texlive-play
+- texlive-play
+- texlive-play
+- texlive-play
+
