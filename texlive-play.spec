@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-play
 Version:	20070113
-Release:	6
+Release:	7
 Summary:	Typeset drama using LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/play
