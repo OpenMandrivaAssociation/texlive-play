@@ -1,9 +1,3 @@
-# revision 15878
-# category Package
-# catalog-ctan /macros/latex/contrib/play
-# catalog-date 2007-01-13 20:56:44 +0100
-# catalog-license lppl
-# catalog-version undef
 Name:		texlive-play
 Version:	20170414
 Release:	1
@@ -33,12 +27,10 @@ including options for line numbering.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/play/play.cls
-%{_texmfdistdir}/tex/latex/play/play.sty
-%doc %{_texmfdistdir}/doc/latex/play/README
+%{_texmfdistdir}/tex/latex/play
+%doc %{_texmfdistdir}/doc/latex/play
 #- source
-%doc %{_texmfdistdir}/source/latex/play/play.dtx
-%doc %{_texmfdistdir}/source/latex/play/play.ins
+%doc %{_texmfdistdir}/source/latex/play
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,17 +41,3 @@ including options for line numbering.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070113-2
-+ Revision: 754980
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070113-1
-+ Revision: 719275
-- texlive-play
-- texlive-play
-- texlive-play
-- texlive-play
-
