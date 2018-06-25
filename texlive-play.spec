@@ -1,5 +1,5 @@
 Name:		texlive-play
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Typeset drama using LaTeX
 Group:		Publishing
