@@ -1,6 +1,6 @@
 Name:		texlive-play
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Typeset drama using LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/play
